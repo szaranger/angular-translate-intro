@@ -1,4 +1,4 @@
-# Hapi Boilerplate Demo App
+# Angular Translate Boilerplate Demo App
 
 This project serves as either a very simple boilerplate to start building an Angular app powered by `angular-translate`.
 
