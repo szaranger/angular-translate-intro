@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica;
+}
+
+h1 {
+  margin: 0;
+  color: #EAC468;
+}
+
+.dictionary {
+  border: 1px solid #EAC468;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 4px;
+}

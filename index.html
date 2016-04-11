@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Translate Intro</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body ng-controller="ctrl">
+  <div class="dictionary">
+    <h1>{{'title' | translate}}</h1>
+    <p>{{'description' | translate}}</p>
+    <input type="button" ng-click="changeLang('en')" value="English">
+    <input type="button" ng-click="changeLang('zh-cn')" value="Chinese">
+  </div>
+
+  <script src="./js/angular.min.js"></script>
+  <script src="./js/angular-translate.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

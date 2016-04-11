@@ -1,0 +1,19 @@
+{
+  "name": "hapi-intro",
+  "version": "1.0.0",
+  "description": "A boilerplate app for implementing angular-translate",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hapi"
+  ],
+  "author": "Sean Amarasinghe",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^10.5.0",
+    "inert": "^3.2.0"
+  }
+}
